@@ -1,1 +1,110 @@
 // Specific CSS for your home-page
+body {
+  background-color: #264653;
+  color: #E9C46A;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #264653;
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header h2 {
+  margin: 5px 0 15px;
+  font-size: 1.5rem;
+  color: #E9C46A;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+
+.skills-list span {
+  background-color: #2A9D8F;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.projects .project-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #E9C46A;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.projects .project-item h4 {
+  color: #264653;
+  margin-bottom: 5px;
+}
+
+.projects .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #F4A261;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.projects .btn:hover {
+  background-color: #E76F51;
+}
+
+.contact .contact-links a {
+  display: inline-block;
+  margin: 10px 15px 0;
+  text-decoration: none;
+  color: #2A9D8F;
+  font-size: 1rem;
+}
+
+.contact .contact-links a:hover {
+  color: #E76F51;
+}
+
+.footer {
+  text-align: center;
+  background-color: #264653;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px; }
