@@ -12,6 +12,7 @@ body {
   padding: 20px;
 }
 
+/* Header */
 .header {
   text-align: center;
   background-color: #264653;
@@ -44,14 +45,29 @@ body {
   font-size: 1rem;
 }
 
-.about,
-.skills,
-.projects,
-.contact {
+.header nav a:hover {
+  color: #F4A261;
+}
+
+/* About Section */
+.about {
   margin: 20px 0;
   padding: 20px;
   border-radius: 8px;
-  background-color: #f4f4f4;
+  background-color: #2A9D8F;
+  color: white;
+}
+
+/* Skills Section */
+.skills {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #264653;
+}
+
+.skills h3 {
+  color: #FFFFFF;
 }
 
 .skills-list span {
@@ -61,6 +77,18 @@ body {
   margin: 5px;
   border-radius: 5px;
   display: inline-block;
+}
+
+/* Projects Section */
+.projects {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2A9D8F;
+}
+
+.projects h3 {
+  color: white;
 }
 
 .projects .project-item {
@@ -90,6 +118,15 @@ body {
   background-color: #E76F51;
 }
 
+/* Contact Section */
+.contact {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #264653;
+  color: white;
+}
+
 .contact .contact-links a {
   display: inline-block;
   margin: 10px 15px 0;
@@ -102,9 +139,36 @@ body {
   color: #E76F51;
 }
 
+/* Footer */
 .footer {
   text-align: center;
   background-color: #264653;
   color: white;
   padding: 10px 0;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
+
+/* Links */
+a {
+  color: #F4A261;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E76F51;
+}
+
+/* Buttons */
+button {
+  background-color: #F4A261;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #E76F51;
+}
