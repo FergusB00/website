@@ -96,18 +96,18 @@ body {
   padding: 15px;
   border: 1px solid #E9C46A;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #264653;
 }
 
 .projects .project-item h4 {
-  color: #264653;
+  color: #E9C46A;
   margin-bottom: 5px;
 }
 
 .projects .btn {
   display: inline-block;
   padding: 8px 15px;
-  background-color: #F4A261;
+  background-color: #E9C46A;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -123,20 +123,20 @@ body {
   margin: 20px 0;
   padding: 20px;
   border-radius: 8px;
-  background-color: #264653;
+  background-color: #2A9D8F;
   color: white;
 }
 
 .contact .contact-links a {
   display: inline-block;
-  margin: 10px 15px 0;
+  margin: 5px 5px 5px;
   text-decoration: none;
-  color: #2A9D8F;
-  font-size: 1rem;
+  color: #264653;
+  font-size: 1.5rem;
 }
 
 .contact .contact-links a:hover {
-  color: #E76F51;
+  color: #E9C46A;
 }
 
 /* Footer */
