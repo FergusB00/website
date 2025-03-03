@@ -9,11 +9,15 @@ body {
 }
 
 .container {
+  max-width: 900px;
+  margin: 0 auto;
   padding: 20px;
 }
 
 /* Header */
 .header {
+  position: sticky;
+  top: 0;
   text-align: center;
   background-color: #264653;
   color: white;
@@ -49,6 +53,10 @@ body {
   color: #F4A261;
 }
 
+.skills, .projects, .about, .contact {
+  padding: 30px;
+}
+
 /* About Section */
 .about {
   margin: 20px 0;
@@ -64,6 +72,16 @@ body {
   padding: 20px;
   border-radius: 8px;
   background-color: #2A9D8F;
+}
+
+.tech-icon {
+  width: 35px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2) rotate(5deg);
 }
 
 .skills h3 {
